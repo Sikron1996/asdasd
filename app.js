@@ -1,7 +1,7 @@
 import { ethers } from "https://esm.sh/ethers@6.13.4";
 import EthereumProvider from "https://esm.sh/@walletconnect/ethereum-provider@2.17.2";
 
-const CONTRACT_ADDRESS = "PASTE_CONTRACT_ADDRESS_HERE";
+const CONTRACT_ADDRESS = "0xbE117E1d7332f1834afe826c2069d9499aC1Eef6";
 const PROJECT_ID = "fe55ea601c3e7e0925c0b33723d6b158";
 const ABI = ["function mint(uint256 amount) external payable","function PRICE() view returns (uint256)","function minted(address user) view returns (uint256)","function totalSupply() view returns (uint256)","function tokenURI(uint256 tokenId) view returns (string)"];
 const MAINNET_HEX="0x1", MAINNET_ID=1, MAX_SUPPLY=10000, DEFAULT_PRICE_ETH="0.0001";
